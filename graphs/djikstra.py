@@ -1,6 +1,8 @@
 """
 Djikstra: finding the shortest path between two nodes in a positive weighted graph.
 
+TIME: O(Elog(V)) SPACE: O(V)
+
 - Once you run djikstra once, you can get shortest path from source to any other node
 
 Two important elements
