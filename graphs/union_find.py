@@ -7,6 +7,8 @@ Best data structure for finding connected components
 : Optimized 
     - Unify based on rank
     - Compress path during find
+    
+Time: UNION and FIND - Amortized O(1) if path compression and union by rank is used
 """
 
 class UnionFind:
